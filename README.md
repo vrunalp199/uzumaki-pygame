@@ -37,6 +37,34 @@ Remote device operation
 - Lightweight design
 - Raspberry Pi compatible
 
+## 🔧 Hardware Configuration
+
+This project is designed around a Raspberry Pi CM4 embedded platform.
+
+### Main Components
+
+* Raspberry Pi Compute Module 4 (CM4)
+* Waveshare PoE UPS Base Board
+* 4-inch HDMI Display
+* ESP8266 NodeMCU
+* USB Wi-Fi Adapter
+* AMS1117 Voltage Regulation Circuit
+
+### Software Stack
+
+* Raspberry Pi OS
+* Python 3
+* Pygame
+* Multi-threaded task execution
+* Network management modules
+
+### System Overview
+
+The Pygame interface serves as the primary user interaction layer while the Raspberry Pi CM4 executes background services and system management tasks. An ESP8266 module provides auxiliary wireless control functionality, and a USB Wi-Fi adapter is used for network-related research and testing activities.
+
+This architecture demonstrates embedded Linux development, user-interface design, hardware integration, concurrent processing, and Raspberry Pi system administration.
+
+
 ## 📸 Screenshots
 
 ### Main Interface
