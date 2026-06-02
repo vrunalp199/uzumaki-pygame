@@ -42,7 +42,9 @@ Install dependencies:
 Run
 python main.py
 
-Project Structure
+## 📂 Project Structure
+
+```text
 uzumaki-pygame/
 │
 ├── assets/
@@ -50,9 +52,9 @@ uzumaki-pygame/
 ├── sounds/
 ├── src/
 │   └── main.py
-├── README.md
-
-Future Improvements
+└── README.md
+```
+#Future Improvements
 Leaderboard
 Sound effects
 Animations
