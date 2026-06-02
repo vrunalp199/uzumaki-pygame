@@ -4,8 +4,6 @@
 
 # 🌀 Uzumaki Pygame
 
-# 🌀 Uzumaki Pygame
-
 A Python-based entertainment game designed for Raspberry Pi that demonstrates:
 
 - Multi-threading
