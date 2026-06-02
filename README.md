@@ -214,6 +214,7 @@ The result is a compact embedded platform that combines an engaging graphical in
 
 ```bash
 pip3 install -r requirements.txt
+python3 main.py
 ```
 
 Install dependencies:
@@ -238,9 +239,6 @@ Sound effects
 Animations
 Multiplayer support
 
-```bash
-pip install pygame
-```
 ## 👨‍💻 Author
 
 <p align="center">
