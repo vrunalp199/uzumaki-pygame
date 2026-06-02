@@ -18,12 +18,17 @@ A Python-based entertainment game designed for Raspberry Pi that demonstrates:
 
 ## 📸 Screenshots
 
-### Main Menu
-images/banner.png
+### Main Interface
 
-### Gameplay
-images/gameplay.png
+![Interface](interface.png)
 
+### Packet Scanner
+
+![Packet Scanner](packetscan.png)
+
+### Deauth Tool
+
+![Deauth Tool](deauth-tool.png)
 ## 🛠 Requirements
 
 - Python 3.11+
