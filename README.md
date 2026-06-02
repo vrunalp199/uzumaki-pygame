@@ -63,8 +63,60 @@ This project is designed around a Raspberry Pi CM4 embedded platform.
 The Pygame interface serves as the primary user interaction layer while the Raspberry Pi CM4 executes background services and system management tasks. An ESP8266 module provides auxiliary wireless control functionality, and a USB Wi-Fi adapter is used for network-related research and testing activities.
 
 This architecture demonstrates embedded Linux development, user-interface design, hardware integration, concurrent processing, and Raspberry Pi system administration.
+```bash
 
-
+                          ┌───────────────────┐
+                          │     Mobile Phone  │
+                          │    VNC Viewer     │
+                          └─────────┬─────────┘
+                                    │
+                                    │ Wi-Fi
+                                    ▼
+┌──────────────────────────────────────────────────────┐
+│                Raspberry Pi CM4                      │
+│          Raspberry Pi OS (Bookworm)                  │
+│                                                      │
+│  ┌──────────────────────────────────────────────┐    │
+│  │              Uzumaki Pygame                  │    │
+│  │                                              │    │
+│  │  Main Menu                                   │    │
+│  │  Packet Scanner                              │    │
+│  │  ESP8266 Control                             │    │
+│  │  System Dashboard                            │    │
+│  └────────────────┬─────────────────────────────┘    │
+│                   │                                  │
+│                   │ Launches & Controls              │
+│                   ▼                                  │
+│  ┌──────────────────────────────────────────────┐    │
+│  │          Background Services                 │    │
+│  │                                              │    │
+│  │  Thread 1 → WiFi Scanner                     │    │
+│  │  Thread 2 → Packet Monitor                   │    │
+│  │  Thread 3 → ESP8266 Communication            │    │
+│  │  Thread 4 → System Monitoring                │    │
+│  │  Thread 5 → Log Collection                   │    │
+│  └───────────────┬──────────────────────────────┘    │
+└──────────────────┼───────────────────────────────────┘
+                   │ UART / Serial
+                   ▼
+          ┌──────────────────────┐
+          │    ESP8266 NodeMCU   │
+          │                      │
+          │  Wi-Fi Controller    │
+          │  Remote Commands     │
+          │  External Interface  │
+          └──────────────────────┘
+                   ▲
+                   │
+                   │ USB
+                   ▼
+          ┌──────────────────────┐
+          │  USB WiFi Adapter    │
+          │                      │
+          │  Network Interface   │
+          │  Monitoring Module   │
+          └──────────────────────┘
+```
 ## 📸 Screenshots
 
 ### Main Interface
