@@ -1,8 +1,12 @@
 <p align="center">
-  <img src="images/banner.png" width="900">
+  <img src="images/banner.png" width="100%">
 </p>
 
-# 🌀 Uzumaki Pygame
+<h1 align="center">🌀 Uzumaki Pygame</h1>
+
+<p align="center">
+  Raspberry Pi • Pygame • Multi-threading • System Management
+</p>
 
 A Python-based entertainment game designed for Raspberry Pi that demonstrates:
 
