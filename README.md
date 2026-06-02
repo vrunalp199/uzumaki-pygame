@@ -50,10 +50,12 @@ Remote device operation
 ### Deauth Tool
 
 ![Deauth Tool](images/deauth-tool.png)
+
 ## 🛠 Requirements
 
-- Python 3.11+
-- Pygame
+```bash
+pip3 install -r requirements.txt
+```
 
 Install dependencies:
 Run
