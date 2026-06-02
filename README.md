@@ -20,15 +20,15 @@ A Python-based entertainment game designed for Raspberry Pi that demonstrates:
 
 ### Main Interface
 
-![Interface](interface.png)
+![Interface](images/interface.png)
 
 ### Packet Scanner
 
-![Packet Scanner](packetscan.png)
+![Packet Scanner](images/packetscan.png)
 
 ### Deauth Tool
 
-![Deauth Tool](deauth-tool.png)
+![Deauth Tool](images/deauth-tool.png)
 ## 🛠 Requirements
 
 - Python 3.11+
