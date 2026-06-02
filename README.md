@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="images/banner.png" width="900">
+</p>
+
+# 🌀 Uzumaki Pygame
+
 # 🌀 Uzumaki Pygame
 
 A Python-based entertainment game designed for Raspberry Pi that demonstrates:
