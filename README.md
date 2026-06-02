@@ -56,3 +56,15 @@ Multiplayer support
 
 ```bash
 pip install pygame
+```
+## 👨‍💻 Author
+
+<p align="center">
+  <img src="https://github.com/vrunalp199.png" width="150">
+</p>
+
+<p align="center">
+  <b>Vrunal Patil</b><br>
+  Computer Science Student<br>
+  Raspberry Pi & Cyber Security Enthusiast
+</p>
