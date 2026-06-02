@@ -1,0 +1,14 @@
+pygame>=2.6.0
+scapy
+requests
+flask
+os
+sys
+math
+time
+random
+subprocess
+threading
+webbrowser
+re
+typing
