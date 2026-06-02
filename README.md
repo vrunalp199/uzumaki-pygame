@@ -8,13 +8,26 @@
   Raspberry Pi • Pygame • Multi-threading • System Management
 </p>
 
-A Python-based entertainment game designed for Raspberry Pi that demonstrates:
+Uzumaki Pygame is a Raspberry Pi–based cybersecurity demonstration platform disguised as a simple game interface. While users interact with a retro-style game environment, the system can execute authorized security testing modules in the background, showcasing concepts such as process management, multi-threading, remote administration, and system automation.
 
-- Multi-threading
-- Process management
-- Resource monitoring
-- Background task execution
-- System performance optimization
+The project was developed as an educational and research-oriented platform for studying Raspberry Pi performance, background task execution, remote device management, and cybersecurity tool integration. It demonstrates how multiple security-related services can operate concurrently while maintaining a responsive user interface.
+
+Key Features
+Retro-style Pygame interface
+Multi-threaded background task execution
+Raspberry Pi optimized architecture
+Remote administration support
+Process and resource management
+Modular cybersecurity testing framework
+Educational demonstration of concurrent system operations
+Educational Objectives
+
+This project helps students understand:
+
+Multi-threading and multiprocessing
+Raspberry Pi system administration
+Background service management
+Remote device operation
 
 ## 🚀 Features
 
