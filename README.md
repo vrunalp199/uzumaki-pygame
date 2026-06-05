@@ -1,6 +1,25 @@
 <p align="center">
   <img src="images/banner.png" width="100%">
 </p>
+<p align="center">
+
+<img src="https://img.shields.io/github/stars/vrunalp199/uzumaki-pygame?style=for-the-badge&color=blue" />
+<img src="https://img.shields.io/badge/Focus-Cyber%20Security-red?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-orange?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Engine-Pygame-green?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Language-Python-yellow?style=for-the-badge" />
+
+</p>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Network-Packet%20Analysis-darkgreen?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Security-Penetration%20Testing-darkred?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Certification-CEH%20Inspired-red?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Purpose-Educational-gold?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Status-Active%20Development-brightgreen?style=for-the-badge" />
+
+</p>
 
 <h1 align="center">🌀 Uzumaki Pygame</h1>
 
