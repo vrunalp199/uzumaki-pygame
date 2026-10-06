@@ -110,8 +110,8 @@ The primary goal of the project is to demonstrate how a single embedded platform
 │  │         Background Service Layer             │    │
 │  │                                              │    │
 │  │ • Multi-threaded Task Manager                │    │
-│  │ • Resource Monitoring                        │    │
-│  │ • Hardware Communication                     │    │
+│  │ • Network Monitoring                         │    │
+│  │ • Network Attacks like:Ddos                  │    │
 │  │ • Logging and Diagnostics                    │    │
 │  │ • Network Management                         │    │
 │  └───────────────┬──────────────────────────────┘    │
@@ -136,10 +136,6 @@ The primary goal of the project is to demonstrate how a single embedded platform
                    │
                    ▼
 
-          ┌──────────────────────┐
-          │ 4" HDMI Display      │
-          │ Pygame Interface     │
-          └──────────────────────┘
 ```
 
 ## Workflow
