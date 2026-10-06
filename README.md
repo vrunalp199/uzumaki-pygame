@@ -133,8 +133,6 @@ The primary goal of the project is to demonstrate how a single embedded platform
           │ Network Interface    │
           └──────────────────────┘
 
-                   │
-                   ▼
 
 ```
 
